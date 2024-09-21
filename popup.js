@@ -14,7 +14,7 @@ function shortenURL(url) {
   fetch(apiUrl, {
     method: 'POST',
     headers: {
-      'Authorization': 'Bearer wchUGUKhMj7T2G8qxwREHhwUaPvJpgc16ur1YxDHBZHdLQBQza7eZLMxrQUz', // You need an API key from TinyURL for this to work
+      'Authorization': 'Bearer YOUR-API-KEY', // You need an API key from TinyURL for this to work
       'Content-Type': 'application/json'
     }
   })
